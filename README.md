@@ -1,7 +1,7 @@
 # MutualForce
-This is a repo of [MutualForce] for 3D object detection.
+[ICASSP 2025] This is a repository of MutualForce: Mutual-Aware Enhancement for 4D Radar-LiDAR 3D Object Detection.
 
-The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet) and InterFusion.
+The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
 
 ## Overview
@@ -15,6 +15,8 @@ The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
 * [Testing](#testing)
 
 ## Introduction
+
+### Structure
 MutualForce: Mutual-Aware Enhancement for 4D Radar-LiDAR 3D Object Detection
 ICASSD review
 * Model Framework:
@@ -22,9 +24,12 @@ ICASSD review
   <img src="docs/force.png" width="95%">
 </p>
 
+### Result
+<img width="1493" height="359" alt="image" src="https://github.com/user-attachments/assets/e60db316-d715-418a-b972-671992186acd" />
+
 
 ## Installation
-
+a. Dataset: Please download the VoD dataset from [VoD Dataset](https://github.com/tudelft-iv/view-of-delft-dataset).
 
 b. Install the dependent libraries as follows:
 
