@@ -6,7 +6,6 @@ The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
 
 ## Overview
 * [Introduction](#introduction)
-* [Changelog](#changelog)
 * [Dataset Structure](#dataset-structure)
 * [Experiment Scenario](#experiment-scenario)
 * [Experiment Settings](#experiment-settings)
@@ -22,9 +21,6 @@ ICASSD review
 <p align="center">
   <img src="docs/force.png" width="95%">
 </p>
-
-## Changelog
-
 
 
 ## Installation
@@ -56,5 +52,10 @@ If you find this project useful in your research, please consider cite:
 
 
 ```
-
+@INPROCEEDINGS{10887748,
+  author={Peng, Xiangyuan and Sun, Huawei and Bierzynski, Kay and Fischbacher, Anton and Servadei, Lorenzo and Wille, Robert},
+  booktitle={ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
+  title={MutualForce: Mutual-Aware Enhancement for 4D Radar-LiDAR 3D Object Detection}, 
+  year={2025},
+  doi={10.1109/ICASSP49660.2025.10887748}}
 ```
