@@ -1,18 +1,9 @@
 # MutualForce
 [ICASSP 2025] This is a repository of MutualForce: Mutual-Aware Enhancement for 4D Radar-LiDAR 3D Object Detection.
-
 The code is mainly based on [OpenPCDet](https://github.com/open-mmlab/OpenPCDet).
 
-
-## Overview
-* [Introduction](#introduction)
-* [Dataset Structure](#dataset-structure)
-* [Experiment Scenario](#experiment-scenario)
-* [Experiment Settings](#experiment-settings)
-* [Experiment Results](#experiment-results)
-* [Installation](#installation)
-* [Training](#training)
-* [Testing](#testing)
+## Abstract
+Radar and LiDAR have been widely used in autonomous driving as LiDAR provides rich structure information, and radar demonstrates high robustness under adverse weather. Recent studies highlight the effectiveness of fusing radar and LiDAR point clouds. However, challenges remain due to the modality misalignment and information loss during feature extractions. To address these issues, we propose a 4D radar-LiDAR framework to mutually enhance their representations. Initially, the indicative features from radar are utilized to guide both radar and LiDAR geometric feature learning. Subsequently, to mitigate their sparsity gap, the shape information from LiDAR is used to enrich radar BEV features. Extensive experiments on the View-of-Delft (VoD) dataset demonstrate our approach's superiority over existing methods, achieving the highest mAP of 71.76% across the entire area and 86.36% within the driving corridor. Especially for cars, we improve the AP by 4.17% and 4.20% due to the strong indicative features and symmetric shapes.
 
 ## Introduction
 
