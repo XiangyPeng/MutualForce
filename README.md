@@ -8,9 +8,6 @@ Radar and LiDAR have been widely used in autonomous driving as LiDAR provides ri
 ## Introduction
 
 ### Structure
-MutualForce: Mutual-Aware Enhancement for 4D Radar-LiDAR 3D Object Detection
-ICASSD review
-* Model Framework:
 <p align="center">
   <img src="docs/force.png" width="95%">
 </p>
